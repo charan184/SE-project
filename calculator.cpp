@@ -30,6 +30,12 @@ int main() {
         case '+':
             cout << "Result: " << add(num1, num2) << endl;
             break;
+        case '-':
+            cout << "Result: " << subtract(num1, num2) << endl;
+            break;
+        case '*':
+            cout << "Result: " << multiply(num1, num2) << endl;
+            break;
         default:
             cout << "Invalid operator!" << endl;
     }
